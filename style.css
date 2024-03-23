@@ -1,0 +1,77 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    gap: 20px; /* Increased gap for better separation */
+    padding: 20px; /* Added padding for spacing */
+}
+
+/* Row Styles */
+.row {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Spacing between items */
+    padding: 20px;
+    background-color: #fffde7; /* White-yellowish background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+
+/* Content Styles */
+.content {
+    text-align: right; /* Align content to the right */
+    flex: 1; /* Allow content to grow */
+}
+
+/* Controls Styles */
+.controls {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Add margin to separate controls from content */
+}
+
+/* Button Styles */
+button {
+    padding: 8px 12px; /* Adjusted padding */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    margin-right: 10px; /* Add margin between buttons */
+}
+
+button:last-child {
+    margin-right: 0; /* Remove margin from the last button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Input Styles */
+input[type="number"],
+input[type="color"] {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+}
+
+/* Paragraph Styles */
+p {
+    margin: 10px 0;
+}
+
+/* Text Right Class */
+.text-right {
+    text-align: right;
+}

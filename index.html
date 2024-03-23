@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive UI Grid</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grid-container">
+    <div class="row">
+      <button onclick="makeBold(0)">Bold</button>
+      <button onclick="makeItalic(0)">Italic</button>
+      <button onclick="makeUnderline(0)">Underline</button>
+      <input type="number" min="10" max="50" value="16" onchange="changeFontSize(0, this.value)">
+      <input type="color" onchange="changeColor(0, this.value)">
+      <p id="sentence0">He's not the sharpest knife in the  drawer.</p>
+    </div>
+    <div class="row">
+      <button onclick="makeBold(1)">Bold</button>
+      <button onclick="makeItalic(1)">Italic</button>
+      <button onclick="makeUnderline(1)">Underline</button>
+      <input type="number" min="10" max="50" value="16" onchange="changeFontSize(1, this.value)">
+      <input type="color" onchange="changeColor(1, this.value)">
+        <p id="sentence1">The autumn leave softly the cool breeze</p>
+
+    </div>
+    
+    <div class="row">
+      <button onclick="makeBold(2)">Bold</button>
+      <button onclick="makeItalic(2)">Italic</button>
+      <button onclick="makeUnderline(2)">Underline</button>
+      <input type="number" min="10" max="50" value="16" onchange="changeFontSize(2, this.value)">
+      <input type="color" onchange="changeColor(2, this.value)">
+      <p id="sentence2">The river flow gently through lush valley</p>
+      
+    </div>
+    <div class="row">
+        <button onclick="makeBold(2)">Bold</button>
+        <button onclick="makeItalic(2)">Italic</button>
+        <button onclick="makeUnderline(2)">Underline</button>
+        <input type="number" min="10" max="50" value="16" onchange="changeFontSize(2, this.value)">
+        <input type="color" onchange="changeColor(2, this.value)">
+        <p id="sentence2">The cat lazily lounges in warm sunlight</p>
+        
+      </div>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
